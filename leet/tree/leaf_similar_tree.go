@@ -58,7 +58,7 @@ func main() {
 			},
 		},
 	}
-	similarFlag := leafSimilar(tree1, tree2)
+	similarFlag := LeafSimilar(tree1, tree2)
 	fmt.Println(similarFlag)
 }
 
@@ -68,7 +68,7 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func leafSimilar(root1 *TreeNode, root2 *TreeNode) bool {
+func LeafSimilar(root1 *TreeNode, root2 *TreeNode) bool {
 	list1 := make([]int, 0)
 	list2 := make([]int, 0)
 	getLeaf(&list1, root1)
