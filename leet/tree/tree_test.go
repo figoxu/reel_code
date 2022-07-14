@@ -1,4 +1,4 @@
-package main
+package tree_test
 
 import (
 	"testing"
