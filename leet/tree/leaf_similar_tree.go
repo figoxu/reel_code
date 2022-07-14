@@ -90,7 +90,8 @@ func getLeaf(list *[]int, root *TreeNode) {
 		return
 	}
 
-	if root.Left == nil && root.Right == nil {
+	leafFlag := root.Left == nil && root.Right == nil
+	if leafFlag {
 		*list = append(*list, root.Val)
 	} else {
 		getLeaf(list, root.Left)
