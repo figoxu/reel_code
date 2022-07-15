@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="RepoImpl Suite" tests="1" failures="0" errors="0" time="0">
+      <testcase name="Collector Write" classname="RepoImpl Suite" time="2.943e-06"></testcase>
+  </testsuite>
